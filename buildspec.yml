@@ -15,4 +15,4 @@ phases:
 artifacts:
   files:
     - "**/*"
-  base_directory: .
+  base_directory: 'html-website-s3'
