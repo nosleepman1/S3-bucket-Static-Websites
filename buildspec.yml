@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    #runtime-versions:
+    commands:
+      - echo installing dependencies...
+  build:
+    commands:
+      - echo building ....
+  post_build: 
+    commands:
+      - echo build finisheeeed
+
+artifacts:
+  files:
+    - "**/*"
+  base_directory: .
